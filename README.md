@@ -1,4 +1,4 @@
-# Mi Primera Página
+# Mi Primera Pagina
 
 Este proyecto contiene mi primera página web utilizando:
 
