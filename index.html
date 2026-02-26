@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Primera Página</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="profile-card">
+            <img src="file:///C:/Users/User/Pictures/imagen.jpeg" alt="José Luis Huila Obregon" class="profile-img">
+            
+            <h1>Jose Luis Huila Obregon</h1>
+            
+            <p class="description">
+                Soy estudiante de Tecnología en Sistemas de Información y estoy aprendiendo desarrollo web. 
+                Me apasiona la tecnología y crear soluciones innovadoras.
+            </p>
+
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank" class="btn-link">
+                    <span>📁</span> Visita mi GitHub
+                </a>
+            </div>
+
+            <button onclick="saludar()" class="btn-primary">Mostrar Mensaje</button>
+            
+            <div id="mensaje" class="mensaje-oculto"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
