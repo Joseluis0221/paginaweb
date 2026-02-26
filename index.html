@@ -2,29 +2,44 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primera Página</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <div class="background-animation"></div>
+
     <div class="container">
         <div class="profile-card">
-            <img src="file:///C:/Users/User/Pictures/imagen.jpeg" alt="José Luis Huila Obregon" class="profile-img">
+            <div class="card-header">
+                <img src="file:///C:/Users/User/Pictures/imagen.jpeg" alt="José Luis Huila Obregon" class="profile-img">
+            </div>
             
-            <h1>Jose Luis Huila Obregon</h1>
+            <h1 class="profile-name">Jose Luis Huila Obregon</h1>
+            <p class="profile-title">Tecnología en Sistemas de Información</p>
             
             <p class="description">
                 Soy estudiante de Tecnología en Sistemas de Información y estoy aprendiendo desarrollo web. 
                 Me apasiona la tecnología y crear soluciones innovadoras.
             </p>
 
+            <div class="skills">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">JavaScript</span>
+            </div>
+
             <div class="social-links">
-                <a href="https://github.com/" target="_blank" class="btn-link">
-                    <span>📁</span> Visita mi GitHub
+                <a href="https://github.com/Joseluis0221/paginaweb.git" target="_blank" class="btn-link">
+                    <span class="icon">📁</span>
+                    <span>Visita mi GitHub</span>
                 </a>
             </div>
 
-            <button onclick="saludar()" class="btn-primary">Mostrar Mensaje</button>
+            <button onclick="saludar()" class="btn-primary">
+                <span>🚀</span> Mostrar Mensaje
+            </button>
             
             <div id="mensaje" class="mensaje-oculto"></div>
         </div>
